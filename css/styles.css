@@ -1,0 +1,256 @@
+/* 'Bebas Neue' 500 */
+/* Open Sans 400 600, 700 */
+
+:root {
+  --accent-color: #00a4e5;
+  --main-text-color: #48555b;
+  --second-text-color: #ffffff;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+/* Скидання стилів */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* hero */
+.hero {
+  background-color: gray;
+}
+
+.hero-title {
+  color: var(--second-text-color);
+
+  font-family: "Bebas Neue", cursive;
+  font-size: 60px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 5.71px;
+}
+
+.hero-text {
+  color: var(--second-text-color);
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.hero-pretext {
+  color: var(--second-text-color);
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 3.7px;
+}
+
+/* header */
+.page-header-link {
+  color: var(--main-text-color);
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 1.09px;
+}
+
+/* features */
+.features-title {
+  color: var(--main-text-color);
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 2.31px;
+}
+
+.features-text {
+  color: var(--main-text-color);
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.19px;
+}
+
+.features-pretext {
+  color: var(--main-text-color);
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  line-height: 1.77;
+  letter-spacing: 0.19px;
+}
+
+/* capabilities */
+.capabilities-title {
+  color: var(--main-text-color);
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 2.31px;
+}
+
+.capabilities-text {
+  color: var(--main-text-color);
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  line-height: 1.73;
+  letter-spacing: 0.2px;
+}
+
+.button {
+  color: var(--second-text-color);
+
+  background-color: var(--accent-color);
+  font-weight: 700;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+/* service */
+.service-title {
+  color: var(--main-text-color);
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.43px;
+}
+
+.service-text {
+  color: var(--main-text-color);
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  line-height: 1.77;
+  letter-spacing: 0.19px;
+}
+
+/* connect */
+.connect-title {
+  color: var(--main-text-color);
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.15px;
+}
+
+/* signup */
+.signup {
+  background-color: black;
+}
+
+.signup-title {
+  color: var(--second-text-color);
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.85px;
+}
+
+/* page-footer */
+.page-footer {
+  background-color: black;
+}
+
+.page-footer-title {
+  color: var(--second-text-color);
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.85px;
+}
+
+.page-footer-link {
+  color: var(--second-text-color);
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 2.27;
+
+  letter-spacing: 0.85px;
+}
+
+.address-link {
+  color: var(--second-text-color);
+
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 1.45px;
+  letter-spacing: 0.85px;
+}
+
+.copyright {
+  color: var(--second-text-color);
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  line-height: 1.18;
+  letter-spacing: 0.85px;
+}
