@@ -1,8 +1,6 @@
-/* 'Bebas Neue' 500 */
-/* Open Sans 400 600, 700 */
-
 :root {
   --accent-color: #00a4e5;
+  --accent-second-color: #0f7aa4;
   --main-text-color: #48555b;
   --second-text-color: #ffffff;
 }
@@ -67,7 +65,6 @@ img {
 .hero-text {
   color: var(--second-text-color);
 
-  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.19;
@@ -77,7 +74,6 @@ img {
 .hero-pretext {
   color: var(--second-text-color);
 
-  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 11px;
   line-height: 1.18;
@@ -89,7 +85,6 @@ img {
 .page-header-link {
   color: var(--main-text-color);
 
-  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   text-decoration: none;
   font-size: 12px;
@@ -98,11 +93,15 @@ img {
   letter-spacing: 1.09px;
 }
 
+.page-header-link:hover,
+.page-header-link:focus {
+  color: var(--accent-color);
+}
+
 /* features */
 .features-title {
   color: var(--main-text-color);
 
-  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -113,7 +112,6 @@ img {
 .features-text {
   color: var(--main-text-color);
 
-  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -123,7 +121,6 @@ img {
 .features-pretext {
   color: var(--main-text-color);
 
-  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   line-height: 1.77;
   letter-spacing: 0.19px;
@@ -133,7 +130,6 @@ img {
 .capabilities-title {
   color: var(--main-text-color);
 
-  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 2.31px;
@@ -142,7 +138,6 @@ img {
 .capabilities-text {
   color: var(--main-text-color);
 
-  font-family: "Open Sans", sans-serif;
   font-size: 11px;
   line-height: 1.73;
   letter-spacing: 0.2px;
@@ -154,18 +149,21 @@ img {
   background-color: var(--accent-color);
   font-weight: 700;
   text-decoration: none;
-  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.5px;
 }
 
+.button:hover,
+.button:focus {
+  background-color: #0f7aa4;
+}
+
 /* service */
 .service-title {
   color: var(--main-text-color);
 
-  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
@@ -175,7 +173,6 @@ img {
 .service-text {
   color: var(--main-text-color);
 
-  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   line-height: 1.77;
   letter-spacing: 0.19px;
@@ -185,7 +182,6 @@ img {
 .connect-title {
   color: var(--main-text-color);
 
-  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 1.2;
@@ -201,7 +197,6 @@ img {
 .signup-title {
   color: var(--second-text-color);
 
-  font-family: "Open Sans", sans-serif;
   font-size: 22px;
   line-height: 1.18;
   text-align: center;
@@ -216,7 +211,6 @@ img {
 .page-footer-title {
   color: var(--second-text-color);
 
-  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 11px;
   line-height: 1.18;
@@ -227,29 +221,35 @@ img {
 .page-footer-link {
   color: var(--second-text-color);
 
-  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   text-decoration: none;
   font-size: 11px;
   line-height: 2.27;
-
   letter-spacing: 0.85px;
+}
+
+.page-footer-link:hover,
+.page-footer-link:focus {
+  color: var(--accent-color);
 }
 
 .address-link {
   color: var(--second-text-color);
 
-  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   font-size: 11px;
   line-height: 1.45px;
   letter-spacing: 0.85px;
 }
 
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+
 .copyright {
   color: var(--second-text-color);
 
-  font-family: "Open Sans", sans-serif;
   font-size: 11px;
   line-height: 1.18;
   letter-spacing: 0.85px;
