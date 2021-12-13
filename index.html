@@ -8,13 +8,20 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Konstruct</title>
   </head>
   <body>
     <section class="hero">
       <a href="./" class="logo"
-        ><img src="./img/logo.svg" alt="logo" width="102"
+        ><img class="hero-image" src="./img/logo.svg" alt="logo" width="102"
       /></a>
       <h1 class="hero-title">PARTNER WITH KONSTUCT</h1>
       <p class="hero-text">An award-winning construction management firm</p>
@@ -22,81 +29,118 @@
     </section>
 
     <header class="page-header">
-      <nav>
-        <a href="./"
-          ><img src="./img/logo-black.svg" alt="logo" width="80"
-        /></a>
-        <ul>
-          <li><a class="page-header-link" href="">HOME</a></li>
-          <li><a class="page-header-link" href="">ABOUT</a></li>
-          <li><a class="page-header-link" href="">SERVICES</a></li>
-          <li><a class="page-header-link" href="">WORK</a></li>
-          <li><a class="page-header-link" href="">CONTACT</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="navigation">
+          <a href="./"
+            ><img src="./img/logo-black.svg" alt="logo" width="80"
+          /></a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="page-header-link" href="">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="page-header-link" href="">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="page-header-link" href="">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="page-header-link" href="">WORK</a>
+            </li>
+            <li class="nav-item">
+              <a class="page-header-link" href="">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <section class="features">
-      <h2 class="features-title">OUR STORY</h2>
-      <p class="features-text">
-        Founded in 2011 by John Mathew Smith, Konstruct has become the number
-        one construction management firm
-      </p>
-      <p class="features-pretext">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
-      </p>
-      <ul>
-        <li>
-          <img src="./img/features1.jpg" alt="work process" width="224" />
-        </li>
-        <li>
-          <img src="./img/features2.jpg" alt="work process" width="224" />
-        </li>
-        <li>
-          <img src="./img/features3.jpg" alt="work process" width="224" />
-        </li>
-      </ul>
+      <div class="container">
+        <h2 class="features-title">OUR STORY</h2>
+        <div class="features-main-wrapper">
+          <div class="features-wrapper">
+            <p class="features-text">
+              Founded in 2011 by John Mathew Smith, Konstruct has become the
+              number one construction management firm
+            </p>
+            <p class="features-pretext">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+              sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+              aliquam erat.
+            </p>
+          </div>
+          <ul class="features-list">
+            <li class="features-item">
+              <img src="./img/features1.jpg" alt="work process" width="224" />
+            </li>
+            <li class="features-item">
+              <img src="./img/features2.jpg" alt="work process" width="224" />
+            </li>
+            <li class="features-item">
+              <img src="./img/features3.jpg" alt="work process" width="224" />
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section class="capabilities">
-      <h2 class="capabilities-title">OUR CAPABILITIES</h2>
-      <p class="capabilities-text">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
-      </p>
-      <a class="button" href="">ALL SERVICES</a>
+      <div class="container">
+        <div class="capabilities-wrapper">
+          <h2 class="capabilities-title">OUR CAPABILITIES</h2>
+          <p class="capabilities-text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+            diam<br />
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+          </p>
+          <a class="button" href="">ALL SERVICES</a>
+        </div>
+      </div>
     </section>
 
     <section class="service">
-      <ul>
-        <li>
-          <img src="./img/icon.svg" alt="icon" />
-          <h3 class="service-title">PROJECT AND CONSTRUCTION MANAGEMENT</h3>
-          <p class="service-text">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
-          </p>
-        </li>
-        <li>
-          <img src="./img/icon2.svg" alt="icon" />
-          <h3 class="service-title">STRUCTURE AUDIT AND MAINTENANCE</h3>
-          <p class="service-text">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
-          </p>
-        </li>
-        <li>
-          <img src="./img/icon3.svg" alt="icon" />
-          <h3 class="service-title">FACTORY CONSTRUCTION AND MODELING</h3>
-          <p class="service-text">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
-          </p>
-        </li>
-      </ul>
+      <div class="container">
+        <ul class="service-list">
+          <li class="service-item">
+            <div class="service-card">
+              <img class="service-image" src="./img/icon.svg" alt="icon" />
+              <h3 class="service-title">PROJECT AND CONSTRUCTION MANAGEMENT</h3>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat.
+              </p>
+            </div>
+          </li>
+
+          <li class="service-item">
+            <div class="service-card">
+              <img class="service-image" src="./img/icon2.svg" alt="icon" />
+              <h3 class="service-title">STRUCTURE AUDIT AND MAINTENANCE</h3>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat.
+              </p>
+            </div>
+          </li>
+
+          <li class="service-item">
+            <div class="service-card">
+              <img class="service-image" src="./img/icon3.svg" alt="icon" />
+              <h3 class="service-title">FACTORY CONSTRUCTION AND MODELING</h3>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <section class="connect">
