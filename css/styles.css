@@ -313,6 +313,8 @@ img {
 /* signup */
 .signup {
   background-color: black;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .signup-title {
@@ -326,16 +328,33 @@ img {
 
 /* page-footer */
 .page-footer {
-  background-color: black;
+  background-color: #141a20;
+  padding-top: 42px;
+  padding-bottom: 40px;
 }
 
 .page-footer-title {
   color: var(--second-text-color);
 
+  margin-bottom: 19px;
+
   font-weight: 700;
   font-size: 11px;
   line-height: 1.18;
-  text-align: center;
+  letter-spacing: 0.85px;
+}
+
+.footer-logo {
+  margin-bottom: 15px;
+}
+
+.page-footer-text {
+  color: var(--second-text-color);
+  margin-top: 15px;
+
+  font-family: OpenSans;
+  font-size: 11px;
+  line-height: 1.73;
   letter-spacing: 0.85px;
 }
 
@@ -354,6 +373,39 @@ img {
   color: var(--accent-color);
 }
 
+.footer-wrapper-first {
+  width: 250px;
+}
+
+.footer-wrapper-second {
+  display: flex;
+}
+
+.main-footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list {
+  margin-right: 35px;
+}
+
+.features-list:last-child {
+  margin-right: 0;
+}
+
+.footer-item:nth-child(1) {
+  margin-top: 32px;
+}
+
+.address-item {
+  margin-bottom: 10px;
+}
+
+.address-item:last-child {
+  margin-bottom: 0;
+}
+
 .address-link {
   color: var(--second-text-color);
 
@@ -367,9 +419,15 @@ img {
 .address-link:focus {
   color: var(--accent-color);
 }
-
 .copyright {
+  background-color: #171819;
+  padding-top: 22px;
+  padding-bottom: 23px;
+}
+
+.copyright-text {
   color: var(--second-text-color);
+  text-align: center;
 
   font-size: 11px;
   line-height: 1.18;
