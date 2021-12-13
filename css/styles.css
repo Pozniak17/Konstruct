@@ -56,7 +56,7 @@ img {
   padding-top: 41px;
   padding-bottom: 71px;
 
-  background-image: url("./img/hero.png");
+  background-image: url("../img/hero.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
