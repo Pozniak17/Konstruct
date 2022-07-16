@@ -436,6 +436,7 @@ img {
 
 /* Бекдроп */
 .backdrop {
+  /* бекдроп в нас фіксований */
   position: fixed;
   top: 0;
   left: 0;
@@ -451,7 +452,7 @@ img {
   height: 600px;
   background-color: #ffffff;
 
-  /* позиціонуємо по центру */
+  /* позиціонуємо по центру модалку */
   position: absolute;
   top: 50%;
   left: 50%;
