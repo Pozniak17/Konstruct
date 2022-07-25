@@ -245,13 +245,42 @@
 
     <div class="backdrop backdrop--hidden">
       <div class="modal">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur,
-          nesciunt. Officia quae dolorem soluta laudantium sit natus non
-          officiis similique.
-        </p>
-        <!-- клас для JS -->
         <button class="button--close-JS">X</button>
+        <div class="modal__container">
+          <p class="modal__text">Оставьте свои данные, мы вам перезвоним</p>
+
+          <form action="" class="form">
+            <ul class="form__list">
+              <li class="form__item">
+                <label for="" class="form__label">Name</label>
+                <input type="text" class="form__input" />
+              </li>
+              <li class="form__item">
+                <label for="" class="form__label">Phone</label>
+                <input type="text" class="form__input" />
+              </li>
+              <li class="form__item">
+                <label for="" class="form__label">Mail</label>
+                <input type="text" class="form__input" />
+              </li>
+            </ul>
+
+            <div class="textarea">
+              <label for="" class="form__label">Comment</label>
+              <textarea class="textarea__element" name="" id=""></textarea>
+            </div>
+
+            <div class="user-agree">
+              <input class="user-agree__checkbox" type="checkbox" />
+              <p class="user-agree__text">
+                Соглашаюсь с рассылкой и принимаю
+                <span class="user-agree__accent">Условия договора</span>
+              </p>
+            </div>
+            <button class="form__button" type="submit">Отправить</button>
+          </form>
+          <!-- клас для JS -->
+        </div>
       </div>
     </div>
 
